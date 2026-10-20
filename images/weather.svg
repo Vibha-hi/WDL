@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#e3f2fd"/>
+  <!-- Sun -->
+  <circle cx="100" cy="90" r="40" fill="#fbc02d"/>
+  <!-- Cloud -->
+  <path d="M180 120 Q180 90 210 90 Q230 70 270 90 Q300 90 300 120 Q320 140 290 160 Q170 160 180 120 Z" fill="#90caf9"/>
+  <!-- Anemometer Tower -->
+  <line x1="200" y1="260" x2="200" y2="170" stroke="#455a64" stroke-width="6"/>
+  <circle cx="200" cy="170" r="10" fill="#37474f"/>
+  <text x="200" y="285" font-family="sans-serif" font-size="20" fill="#1565c0" text-anchor="middle" font-weight="bold">Weather Monitoring Station</text>
+</svg>

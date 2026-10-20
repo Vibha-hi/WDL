@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#e0f7fa"/>
+  <line x1="50" y1="200" x2="350" y2="200" stroke="#00838f" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="100" cy="220" r="6" fill="#0288d1"/>
+  <circle cx="200" cy="225" r="8" fill="#0288d1"/>
+  <circle cx="300" cy="220" r="6" fill="#0288d1"/>
+  <path d="M100 200 L100 214 M200 200 L200 214 M300 200 L300 214" stroke="#00acc1" stroke-width="4"/>
+  <text x="200" y="270" font-family="sans-serif" font-size="20" fill="#006064" text-anchor="middle" font-weight="bold">Drip Irrigation System</text>
+</svg>

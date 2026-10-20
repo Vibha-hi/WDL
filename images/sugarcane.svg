@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="300" viewBox="0 0 400 300">
+  <rect width="400" height="300" fill="#e8f5e9"/>
+  <rect x="0" y="220" width="400" height="80" fill="#4caf50"/>
+  <path d="M100 240 Q110 100 120 40" stroke="#2e7d32" stroke-width="8" fill="none"/>
+  <path d="M120 40 Q150 70 180 80" stroke="#388e3c" stroke-width="5" fill="none"/>
+  <path d="M120 70 Q90 90 60 100" stroke="#388e3c" stroke-width="5" fill="none"/>
+  <path d="M200 240 Q210 120 220 50" stroke="#2e7d32" stroke-width="8" fill="none"/>
+  <path d="M220 50 Q250 80 280 90" stroke="#388e3c" stroke-width="5" fill="none"/>
+  <path d="M300 240 Q310 110 320 60" stroke="#2e7d32" stroke-width="8" fill="none"/>
+  <text x="200" y="280" font-family="sans-serif" font-size="20" fill="#ffffff" text-anchor="middle" font-weight="bold">Healthy Sugarcane Crop</text>
+</svg>

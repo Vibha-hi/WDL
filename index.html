@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI-based Smart Irrigation Advisory System</title>
+
+    <!-- External CSS for Website Theme and Layout (Unified) -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Task 2: Internal CSS for Navigation Menu -->
+    <style>
+        /* Task 2: Internal CSS for Navigation Menu */
+        nav {
+            background-color: #1b5e20;
+            text-align: center;
+            padding: 10px 15px;
+            box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+        }
+
+        nav ul {
+            list-style-type: none; /* Remove bullet points */
+            margin: 0;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline-block; /* Display menu items horizontally */
+            margin: 0 4px;
+        }
+
+        nav a {
+            color: #ffffff; /* Link color */
+            text-decoration: none; /* text-decoration */
+            display: inline-block; /* display: inline-block */
+            padding: 8px 16px;
+            font-size: 14px;
+            font-weight: 600;
+            border-radius: 4px;
+            transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
+        }
+
+        /* Hover effect */
+        nav a:hover {
+            background-color: #81c784;
+            color: #1b5e20; /* Change link color on hover */
+            text-decoration: underline;
+            transform: translateY(-1px);
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Task 1: Style the Homepage Header (Inline CSS) -->
+    <header style="background-color: #e8f5e9; padding: 25px 20px; border-bottom: 4px solid #2e7d32; text-align: center;">
+        <h1 style="color: #1b5e20; margin: 0 0 6px 0; font-size: 30px; letter-spacing: 0.5px;">AI-based Smart Irrigation Advisory System</h1>
+        <p style="color: #2e7d32; text-align: center; margin: 0; font-size: 16px;"><i>Smart Irrigation using AI &amp; Sensor Technology</i></p>
+    </header>
+
+    <!-- Task 2: Navigation Menu -->
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#info">Farm Info</a></li>
+            <li><a href="#advisory">Advisory</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#table">Data Table</a></li>
+            <li><a href="#register">Register</a></li>
+            <li><a href="#weather">Weather</a></li>
+            <li><a href="#media">Media</a></li>
+        </ul>
+    </nav>
+
+    <!-- Task 9: Page Layout using CSS (Header, Sidebar, Content, Footer) -->
+    <div class="layout-container">
+
+        <!-- Sidebar (Left) -->
+        <aside class="sidebar">
+
+            <!-- Task 10: CSS Effects & Highlighting (Glowing / Blinking Special Offer Box) -->
+            <div class="offer-box">
+                <span class="badge">OFFER</span>
+                Special 45% Subsidy on AI Drip Controllers!
+            </div>
+
+            <!-- Task 4: Style Categories Sidebar (Card Appearance) -->
+            <div class="category-card">
+                <h3>Crop &amp; Farm Categories</h3>
+                <ul>
+                    <li>Sugarcane (Germination)</li>
+                    <li>Sugarcane (Growth)</li>
+                    <li>Soil Moisture Sensors</li>
+                    <li>Weather &amp; Rain Detectors</li>
+                    <li>Automated Drip Valves</li>
+                </ul>
+            </div>
+
+            <div class="category-card">
+                <h3>Quick System Stats</h3>
+                <ul>
+                    <li>Active Plots: 12</li>
+                    <li>Soil Moisture Avg: 22%</li>
+                    <li>Water Saved: 35%</li>
+                    <li>System Status: Optimal</li>
+                </ul>
+            </div>
+
+            <div class="category-card">
+                <h3>Maintenance Notice</h3>
+                <p style="margin: 0; font-size: 14px;"><mark>Notice:</mark> Sensor maintenance scheduled tomorrow at 6 AM.</p>
+            </div>
+
+        </aside>
+
+        <!-- Main Content Area (Right) -->
+        <main class="main-content">
+
+            <section id="home">
+                <h2>Home</h2>
+                <article>
+                    <p>Welcome to the <u>Smart Irrigation Advisory System</u> for sugarcane crop cultivation. Our platform combines real-time IoT sensors with predictive AI models to deliver precision water recommendations.</p>
+                </article>
+            </section>
+
+            <!-- Task 2 from Exp 1: Lists & Text Formatting -->
+            <section id="info">
+                <h2>Farm Info</h2>
+
+                <h3>Irrigation Workflow</h3>
+                <ol>
+                    <li><b>Sensors</b> read soil moisture and ambient conditions in real time.</li>
+                    <li><mark>AI Model</mark> analyzes weather patterns and calculates exact water requirement.</li>
+                    <li><i>Valves</i> open and shut automatically to optimize resource usage.</li>
+                </ol>
+
+                <h3>Sensors</h3>
+                <ul>
+                    <li>Capacitive Soil Moisture Sensor</li>
+                    <li>Digital Temperature and Humidity Sensor</li>
+                    <li>Optical Rainfall Detector</li>
+                </ul>
+
+                <h3>Crop Stages</h3>
+                <dl>
+                    <dt><b>Germination Stage:</b></dt>
+                    <dd>0 - 60 days (Requires balanced initial moisture)</dd>
+                    <dt><b>Grand Growth Stage:</b></dt>
+                    <dd><mark>120 - 270 days</mark> (Peak water requirement stage)</dd>
+                </dl>
+            </section>
+
+            <!-- Task 5: Book/Plot Card Layout Using CSS Box Model -->
+            <section id="advisory">
+                <h2>Irrigation Advisory Cards</h2>
+                <p>Real-time advisory cards formatted with CSS Box Model (width, margin, padding, border, shadow):</p>
+                
+                <div style="text-align: center;">
+                    <div class="advisory-card">
+                        <h4>Plot PLOT-01</h4>
+                        <p><strong>Farmer:</strong> Ramesh Kumar</p>
+                        <p><strong>Moisture:</strong> <em>24%</em></p>
+                        <p><strong>Recommendation:</strong> <mark>Irrigate 90 Mins</mark></p>
+                        <p><strong>Status:</strong> <small style="color: #d32f2f; font-weight: bold;">High Stress</small></p>
+                    </div>
+
+                    <div class="advisory-card">
+                        <h4>Plot PLOT-02</h4>
+                        <p><strong>Farmer:</strong> Suresh Deshmukh</p>
+                        <p><strong>Moisture:</strong> <em>18%</em></p>
+                        <p><strong>Recommendation:</strong> <mark>Irrigate 120 Mins</mark></p>
+                        <p><strong>Status:</strong> <small style="color: #c2185b; font-weight: bold;">Critical Stress</small></p>
+                    </div>
+
+                    <div class="advisory-card">
+                        <h4>Plot PLOT-03</h4>
+                        <p><strong>Farmer:</strong> Anita Patil</p>
+                        <p><strong>Moisture:</strong> <em>38%</em></p>
+                        <p><strong>Recommendation:</strong> <mark>No Irrigation Needed</mark></p>
+                        <p><strong>Status:</strong> <small style="color: #388e3c; font-weight: bold;">Normal</small></p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Task 6: Image Gallery Styling with CSS (Grid, same size, border, hover zoom transform: scale) -->
+            <section id="gallery">
+                <h2>Farm Gallery &amp; Interactive Map</h2>
+                <p>Hover over the gallery items to view the CSS3 transition and zoom effects:</p>
+                <div class="gallery-grid">
+                    <figure>
+                        <img src="images/sugarcane.svg" alt="Sugarcane Crop" class="gallery-img">
+                        <figcaption>Sugarcane Crop</figcaption>
+                    </figure>
+
+                    <figure>
+                        <img src="images/drip.svg" alt="Drip Irrigation" class="gallery-img">
+                        <figcaption>Drip Irrigation System</figcaption>
+                    </figure>
+
+                    <figure>
+                        <img src="images/sensor.svg" alt="Soil Sensor" class="gallery-img">
+                        <figcaption>Smart Moisture Sensor</figcaption>
+                    </figure>
+                </div>
+
+                <div class="map-container">
+                    <h3>Clickable Farm Plot Map</h3>
+                    <img src="images/farm-map.svg" usemap="#farmmap" alt="Farm Map" width="380" height="240">
+                    <map name="farmmap">
+                        <area shape="rect" coords="10,10,120,240" href="#advisory" alt="Plot A" title="Plot A">
+                        <area shape="rect" coords="130,10,260,240" href="#table" alt="Plot B" title="Plot B">
+                        <area shape="rect" coords="270,10,390,240" href="#info" alt="Plot C" title="Plot C">
+                    </map>
+                </div>
+            </section>
+
+            <!-- Task 7: Table Styling with Zebra Striping, Collapsed Borders & Centered Text -->
+            <section id="table">
+                <h2>Irrigation Data Table</h2>
+                <table border="1" cellpadding="6" cellspacing="0">
+                    <caption>Table 1: Soil Moisture &amp; Irrigation Recommendations</caption>
+                    <thead>
+                        <tr>
+                            <th>Plot ID</th>
+                            <th>Farmer Name</th>
+                            <th>Soil Moisture (%)</th>
+                            <th>Weather</th>
+                            <th>Recommendation</th>
+                            <th>Water Requirement</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>PLOT-01</td>
+                            <td>Ramesh Kumar</td>
+                            <td>24%</td>
+                            <td rowspan="2">Sunny</td>
+                            <td>Irrigate 90 Mins</td>
+                            <td>High (45 L)</td>
+                        </tr>
+                        <tr>
+                            <td>PLOT-02</td>
+                            <td>Suresh Deshmukh</td>
+                            <td>18%</td>
+                            <td>Irrigate 120 Mins</td>
+                            <td>Critical (60 L)</td>
+                        </tr>
+                        <tr>
+                            <td>PLOT-03</td>
+                            <td>Anita Patil</td>
+                            <td>38%</td>
+                            <td>Partly Cloudy</td>
+                            <td>No Action Needed</td>
+                            <td>Normal (0 L)</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="4"><b>Total Water Requirement:</b></td>
+                            <td colspan="2"><b>105 L</b></td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </section>
+
+            <!-- Task 8: Style Registration Form with :focus, :hover, border-radius, fieldset & legend -->
+            <section id="register">
+                <h2>Farmer Registration</h2>
+                <form action="#" method="post">
+                    <fieldset>
+                        <legend>Farmer &amp; Farm Details</legend>
+                        <p>
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" placeholder="Full Name" required autofocus>
+                        </p>
+                        <p>
+                            <label for="phone">Mobile:</label>
+                            <input type="tel" id="phone" name="phone" placeholder="10 Digits" pattern="[0-9]{10}" required>
+                        </p>
+                        <p>
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" placeholder="farmer@example.com" required>
+                        </p>
+                        <p>
+                            <label for="stage">Crop Stage:</label>
+                            <select id="stage" name="stage" required>
+                                <option value="">Select Stage</option>
+                                <option value="Germination">Germination</option>
+                                <option value="Growth">Grand Growth</option>
+                            </select>
+                        </p>
+                        <p>
+                            <label for="date">Date:</label>
+                            <input type="date" id="date" name="date" required>
+                        </p>
+                        <p>
+                            <label for="photo">Farm Photo:</label>
+                            <input type="file" id="photo" name="photo" required>
+                        </p>
+                        <p>
+                            <input type="submit" value="Register Farmer">
+                            <input type="reset" value="Reset Details">
+                        </p>
+                    </fieldset>
+                </form>
+            </section>
+
+            <!-- Weather Forecast with responsive iframe -->
+            <section id="weather">
+                <h2>Weather Forecast</h2>
+                <iframe
+                    src="https://maps.google.com/maps?q=Somaiya%20Vidyavihar%20Mumbai&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                    width="100%" height="200" style="border: 1px solid #c8e6c9; border-radius: 6px;"></iframe>
+            </section>
+
+            <!-- Multimedia -->
+            <section id="media">
+                <h2>Multimedia Resources</h2>
+                <p><b>Educational Video:</b></p>
+                <video controls width="320" style="border: 2px solid #81c784; border-radius: 6px; display: block; margin-bottom: 15px;">
+                    <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                </video>
+                <p><b>Audio Announcement:</b></p>
+                <audio controls style="display: block; margin-top: 5px;">
+                    <source src="https://www.w3schools.com/html/horse.mp3" type="audio/mpeg">
+                </audio>
+            </section>
+
+        </main>
+
+    </div>
+
+    <!-- Common Footer Style -->
+    <footer>
+        <p>&copy; 2026 AI-based Smart Irrigation Advisory System &bull; Somaiya Vidyavihar University</p>
+    </footer>
+
+</body>
+
+</html>
